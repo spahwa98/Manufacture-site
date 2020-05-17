@@ -8,17 +8,24 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+ 
+    <link rel = "stylesheet" href = "bootstrap-social.css">
 
     <title>Home</title>
+
     <style>
         .carousel-caption {
             top: 20%;
             bottom: auto;
         }
 
-    </style>
+        div{
+            transition-duration: 5s;
+            transition-delay: 2s;
+        }
 
-       
+    </style>       
 </head>
 
 <body>
@@ -36,7 +43,7 @@
                     <a class="nav-link" href="#">My Wishlist</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#contact">Contact Us</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
@@ -61,10 +68,11 @@
         <!-- The slideshow -->
     <div class="carousel-inner align-text-top">
         <div class="carousel-item active">
-        <img class="" src="img/img2.jpg" alt="Style" style="width: 100%; height: 600px; padding: 100px 0px; padding-bottom: 0px ">
             <div class="carousel-caption d-none d-block">
                <h5><p class="text-dark font-weight-bold">We Just Not Make Clothes But Also We Manufacture Happiness</p></h5>
             </div>
+        <img class="" src="img/img2.jpg" alt="Style" style="width: 100%; height: 600px; padding-bottom: 0px ">
+            
         </div>
     </div>
 
@@ -74,7 +82,7 @@
     </div>
 
     <!-- Cards --> 
-    <div class="row">
+    <div class="row" style="background-color: #C0C0C0">
         <div class="card col-lg-3 col-md-4 col-sm-9" style="width: 18rem; margin: 10px 55px;">
           <img src="img/indo-western.jpg" class="card-img-top" alt="..." style="height: auto;">
           <div class="card-body">
@@ -100,6 +108,50 @@
           </div>
         </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-dark pt-4">
+
+      <!-- Footer Elements -->
+      <div class="container" id="contact">
+
+        <!-- Social buttons -->
+        <ul class="list-unstyled list-inline text-center" >
+          <li class="list-inline-item">
+            <a class="btn btn-social-icon btn-facebook btn-lg text-white bg-white font-weight-bold">
+              <i class="fa fa-facebook-f" style="color: #3b5998"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn btn-social-icon btn-twitter btn-lg text-white text-info bg-white font-weight-bold">
+              <i class="fa fa-twitter"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn btn-social-icon btn-btn-google btn-lg text-white bg-white font-weight-bold">
+              <i class="fa fa-google" style="color: #dc4e41"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn btn-social-icon btn-instagram btn-lg text-white bg-white font-weight-bold">
+              <i style="color: #3f729b" class="fa fa-instagram"> </i>
+            </a>
+          </li>
+        </ul>
+        <!-- Social buttons -->
+
+      </div>
+      <hr class="my-6 font-weight-bold text-white bg-light" style="margin: 0px 50px; box-shadow: -5px 5px 5px #ffffff" >
+      <!-- Footer Elements -->
+
+      <!-- Copyright -->
+      <div class="text-white footer-copyright text-center py-3">© 2020 Copyright:
+        <a class="text-muted" href="#">Bedi Batra Garments.</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+<!-- Footer -->
 
 
       <!-- Left and right controls 
